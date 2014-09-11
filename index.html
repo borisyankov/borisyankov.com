@@ -1,10 +1,10 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!DOCTYPE html>
+<html>
 <head>
 	<title>Boris Yankov Photography</title>
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 	<meta name="apple-mobile-web-app-capable" content="yes" />
-	<link rel="apple-touch-icon" href="/my_custom_icon.png"/>
+	<link rel="apple-touch-icon" href="my_custom_icon.png"/>
     <link rel="stylesheet" href="css/supersized.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="theme/supersized.shutter.css" type="text/css" media="screen" />
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
@@ -17,39 +17,38 @@
 
             $.supersized({
 
-		slide_interval: 5000,		// Length between transitions
-		transition: 1, 			// 0-None, 1-Fade, 2-Slide Top, 3-Slide Right, 4-Slide Bottom, 5-Slide Left, 6-Carousel Right, 7-Carousel Left
-		transition_speed: 500,		// Speed of transition
-		progress_bar: 0,
-		
-		slide_links: 'blank',	// Individual links for each slide (Options: false, 'num', 'name', 'blank')
-		slides: [			// Slideshow Images
-			{ image: '/portfolio/firebird.jpg', title: 'Firebird, Winner of Bodygraphia 2009', thumb: '/thumbs/firebird.jpg' },
-			{ image: '/portfolio/pure.jpg', title: 'Pure', thumb: '/thumbs/pure.jpg' },
-			{ image: '/portfolio/sungame.jpg', title: 'Sun Game', thumb: '/thumbs/sungame.jpg' },
-			{ image: '/portfolio/lines.jpg', title: 'Lines', thumb: '/thumbs/lines.jpg' },
-			{ image: '/portfolio/dream.jpg', title: 'Dream / Nightmare', thumb: '/thumbs/dream.jpg' },
-			{ image: '/portfolio/freedom.jpg', title: 'Freedom', thumb: '/thumbs/freedom.jpg' },
-			{ image: '/portfolio/nina.jpg', title: 'Nina Nikolina', thumb: '/thumbs/nina.jpg' },
-			{ image: '/portfolio/weirdo.jpg', title: 'Dimo @ P.I.F.', thumb: '/thumbs/weirdo.jpg' },
-			{ image: '/portfolio/popcorn-freak.jpg', title: 'Popcorn Freak', thumb: '/thumbs/popcorn-freak.jpg' },
-			{ image: '/portfolio/nomore.jpg', title: 'P.I.F.', thumb: '/thumbs/nomore.jpg' },
-			{ image: '/portfolio/africana.jpg', title: 'Africana', thumb: '/thumbs/africana.jpg' },
-			{ image: '/portfolio/coffreak.jpg', title: 'Coffreak', thumb: '/thumbs/coffreak.jpg' },
-			{ image: '/portfolio/fun.jpg', title: 'Fun', thumb: '/thumbs/fun.jpg' },
-			{ image: '/portfolio/joy.jpg', title: 'Joy', thumb: '/thumbs/joy.jpg' },
-			{ image: '/portfolio/healthy.jpg', title: 'Eat Your Breakfast', thumb: '/thumbs/healthy.jpg' },
-			{ image: '/portfolio/lady-in-red.jpg', title: 'Lady in Red', thumb: '/thumbs/lady-in-red.jpg' },
-			{ image: '/portfolio/missyou.jpg', title: 'Miss you...', thumb: '/thumbs/missyou.jpg' },
-			{ image: '/portfolio/nightlines.jpg', title: 'Nightlines', thumb: '/thumbs/nightlines.jpg' },
-			{ image: '/portfolio/radiant.jpg', title: 'Radiant', thumb: '/thumbs/radiant.jpg' },
-			{ image: '/portfolio/radical.jpg', title: 'Radical', thumb: '/thumbs/radical.jpg' },
-			{ image: '/portfolio/petite.jpg', title: 'Petite', thumb: '/thumbs/petite.jpg' },
-			{ image: '/portfolio/ani.jpg', title: 'A', thumb: '/thumbs/ani.jpg' },
-			{ image: '/portfolio/bubbles.jpg', title: 'Bubbles', thumb: '/thumbs/bubbles.jpg' },
-			{ image: '/portfolio/hurt.jpg', title: 'Hurt', thumb: '/thumbs/hurt.jpg' },
+        		slide_interval: 5000,		// Length between transitions
+        		transition: 1, 			// 0-None, 1-Fade, 2-Slide Top, 3-Slide Right, 4-Slide Bottom, 5-Slide Left, 6-Carousel Right, 7-Carousel Left
+        		transition_speed: 500,		// Speed of transition
+        		progress_bar: 0,
+        		
+        		slide_links: 'blank',	// Individual links for each slide (Options: false, 'num', 'name', 'blank')
+        		slides: [			// Slideshow Images
+        			{ image: 'portfolio/firebird.jpg', title: 'Firebird, Winner of Bodygraphia 2009', thumb: 'thumbs/firebird.jpg' },
+        			{ image: 'portfolio/pure.jpg', title: 'Pure', thumb: 'thumbs/pure.jpg' },
+        			{ image: 'portfolio/sungame.jpg', title: 'Sun Game', thumb: 'thumbs/sungame.jpg' },
+        			{ image: 'portfolio/lines.jpg', title: 'Lines', thumb: 'thumbs/lines.jpg' },
+        			{ image: 'portfolio/dream.jpg', title: 'Dream / Nightmare', thumb: 'thumbs/dream.jpg' },
+        			{ image: 'portfolio/freedom.jpg', title: 'Freedom', thumb: 'thumbs/freedom.jpg' },
+        			{ image: 'portfolio/nina.jpg', title: 'Nina Nikolina', thumb: 'thumbs/nina.jpg' },
+        			{ image: 'portfolio/weirdo.jpg', title: 'Dimo @ P.I.F.', thumb: 'thumbs/weirdo.jpg' },
+        			{ image: 'portfolio/popcorn-freak.jpg', title: 'Popcorn Freak', thumb: 'thumbs/popcorn-freak.jpg' },
+        			{ image: 'portfolio/nomore.jpg', title: 'P.I.F.', thumb: 'thumbs/nomore.jpg' },
+        			{ image: 'portfolio/africana.jpg', title: 'Africana', thumb: 'thumbs/africana.jpg' },
+        			{ image: 'portfolio/coffreak.jpg', title: 'Coffreak', thumb: 'thumbs/coffreak.jpg' },
+        			{ image: 'portfolio/fun.jpg', title: 'Fun', thumb: 'thumbs/fun.jpg' },
+        			{ image: 'portfolio/joy.jpg', title: 'Joy', thumb: 'thumbs/joy.jpg' },
+        			{ image: 'portfolio/healthy.jpg', title: 'Eat Your Breakfast', thumb: 'thumbs/healthy.jpg' },
+        			{ image: 'portfolio/lady-in-red.jpg', title: 'Lady in Red', thumb: 'thumbs/lady-in-red.jpg' },
+        			{ image: 'portfolio/missyou.jpg', title: 'Miss you...', thumb: 'thumbs/missyou.jpg' },
+        			{ image: 'portfolio/nightlines.jpg', title: 'Nightlines', thumb: 'thumbs/nightlines.jpg' },
+        			{ image: 'portfolio/radiant.jpg', title: 'Radiant', thumb: 'thumbs/radiant.jpg' },
+        			{ image: 'portfolio/radical.jpg', title: 'Radical', thumb: 'thumbs/radical.jpg' },
+        			{ image: 'portfolio/petite.jpg', title: 'Petite', thumb: 'thumbs/petite.jpg' },
+        			{ image: 'portfolio/ani.jpg', title: 'A', thumb: 'thumbs/ani.jpg' },
+        			{ image: 'portfolio/bubbles.jpg', title: 'Bubbles', thumb: 'thumbs/bubbles.jpg' },
+        			{ image: 'portfolio/hurt.jpg', title: 'Hurt', thumb: 'thumbs/hurt.jpg' }
                 ]
-
             });
         });
 
@@ -91,7 +90,7 @@ var _gaq = _gaq || [];
 </style>
 <body>
     <ul id="demo-block">
-        <img src="/img/logo.png" alt="Boris Yankov Photography"/>       
+        <img src="img/logo.png" alt="Boris Yankov Photography"/>       
     </ul>
     <div id="prevthumb"></div>
     <div id="nextthumb"></div>
