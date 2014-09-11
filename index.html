@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>Boris Yankov Photography</title>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<link rel="apple-touch-icon" href="/my_custom_icon.png"/>
+    <link rel="stylesheet" href="css/supersized.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="theme/supersized.shutter.css" type="text/css" media="screen" />
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.min.js"></script>
+    <script type="text/javascript" src="js/supersized.3.2.7.min.js"></script>
+    <script type="text/javascript" src="theme/supersized.shutter.min.js"></script>
+    <script type="text/javascript">
+
+        jQuery(function ($) {
+
+            $.supersized({
+
+		slide_interval: 5000,		// Length between transitions
+		transition: 1, 			// 0-None, 1-Fade, 2-Slide Top, 3-Slide Right, 4-Slide Bottom, 5-Slide Left, 6-Carousel Right, 7-Carousel Left
+		transition_speed: 500,		// Speed of transition
+		progress_bar: 0,
+		
+		slide_links: 'blank',	// Individual links for each slide (Options: false, 'num', 'name', 'blank')
+		slides: [			// Slideshow Images
+			{ image: '/portfolio/firebird.jpg', title: 'Firebird, Winner of Bodygraphia 2009', thumb: '/thumbs/firebird.jpg' },
+			{ image: '/portfolio/pure.jpg', title: 'Pure', thumb: '/thumbs/pure.jpg' },
+			{ image: '/portfolio/sungame.jpg', title: 'Sun Game', thumb: '/thumbs/sungame.jpg' },
+			{ image: '/portfolio/lines.jpg', title: 'Lines', thumb: '/thumbs/lines.jpg' },
+			{ image: '/portfolio/dream.jpg', title: 'Dream / Nightmare', thumb: '/thumbs/dream.jpg' },
+			{ image: '/portfolio/freedom.jpg', title: 'Freedom', thumb: '/thumbs/freedom.jpg' },
+			{ image: '/portfolio/nina.jpg', title: 'Nina Nikolina', thumb: '/thumbs/nina.jpg' },
+			{ image: '/portfolio/weirdo.jpg', title: 'Dimo @ P.I.F.', thumb: '/thumbs/weirdo.jpg' },
+			{ image: '/portfolio/popcorn-freak.jpg', title: 'Popcorn Freak', thumb: '/thumbs/popcorn-freak.jpg' },
+			{ image: '/portfolio/nomore.jpg', title: 'P.I.F.', thumb: '/thumbs/nomore.jpg' },
+			{ image: '/portfolio/africana.jpg', title: 'Africana', thumb: '/thumbs/africana.jpg' },
+			{ image: '/portfolio/coffreak.jpg', title: 'Coffreak', thumb: '/thumbs/coffreak.jpg' },
+			{ image: '/portfolio/fun.jpg', title: 'Fun', thumb: '/thumbs/fun.jpg' },
+			{ image: '/portfolio/joy.jpg', title: 'Joy', thumb: '/thumbs/joy.jpg' },
+			{ image: '/portfolio/healthy.jpg', title: 'Eat Your Breakfast', thumb: '/thumbs/healthy.jpg' },
+			{ image: '/portfolio/lady-in-red.jpg', title: 'Lady in Red', thumb: '/thumbs/lady-in-red.jpg' },
+			{ image: '/portfolio/missyou.jpg', title: 'Miss you...', thumb: '/thumbs/missyou.jpg' },
+			{ image: '/portfolio/nightlines.jpg', title: 'Nightlines', thumb: '/thumbs/nightlines.jpg' },
+			{ image: '/portfolio/radiant.jpg', title: 'Radiant', thumb: '/thumbs/radiant.jpg' },
+			{ image: '/portfolio/radical.jpg', title: 'Radical', thumb: '/thumbs/radical.jpg' },
+			{ image: '/portfolio/petite.jpg', title: 'Petite', thumb: '/thumbs/petite.jpg' },
+			{ image: '/portfolio/ani.jpg', title: 'A', thumb: '/thumbs/ani.jpg' },
+			{ image: '/portfolio/bubbles.jpg', title: 'Bubbles', thumb: '/thumbs/bubbles.jpg' },
+			{ image: '/portfolio/hurt.jpg', title: 'Hurt', thumb: '/thumbs/hurt.jpg' },
+                ]
+
+            });
+        });
+
+		
+var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-157158-6']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+</head>
+<style type="text/css">
+    ul#demo-block
+    {
+        margin: 0 15px 15px 15px;
+    }
+
+        ul#demo-block li
+        {
+            margin: 0 0 10px 0;
+            padding: 10px;
+            display: inline;
+            float: left;
+            clear: both;
+            color: #aaa;
+            background: url('img/bg-black.png');
+            font: 11px Helvetica, Arial, sans-serif;
+        }
+
+            ul#demo-block li a
+            {
+                color: #eee;
+                font-weight: bold;
+            }
+</style>
+<body>
+    <ul id="demo-block">
+        <img src="/img/logo.png" alt="Boris Yankov Photography"/>       
+    </ul>
+    <div id="prevthumb"></div>
+    <div id="nextthumb"></div>
+    <!--Arrow Navigation-->
+    <a id="prevslide" class="load-item"></a><a id="nextslide" class="load-item"></a>
+    <div id="thumb-tray" class="load-item">
+        <div id="thumb-back"></div>
+        <div id="thumb-forward"></div>
+    </div>
+    <!--Control Bar-->
+    <div id="controls-wrapper" class="load-item">
+        <div id="controls">
+            <a id="play-button">
+                <img id="pauseplay" src="img/pause.png" /></a>
+            <!--Slide counter-->
+            <div id="slidecounter">
+                <span class="slidenumber"></span>/ <span class="totalslides"></span>
+            </div>
+            <!--Slide captions displayed here-->
+            <div id="slidecaption"></div>
+            <!--Thumb Tray button-->
+            <a id="tray-button">
+                <img id="tray-arrow" src="img/button-tray-up.png" /></a>
+            <!--Navigation-->
+            <ul id="slide-list"></ul>
+        </div>
+    </div>
+</body>
+</html>
