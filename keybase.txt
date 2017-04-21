@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/borisyankov
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://borisyankov.com
+  * I am borisyankov (https://keybase.io/borisyankov) on keybase.
+  * I have a public key ASAD3Kr3WApePBNrK_dnTpzm-cL7tamdrXowoGcNNssiugo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "012003dcaaf7580a5e3c136b2bf7674e9ce6f9c2fbb5a99dad7a30a0670d36cb22ba0a",
+            "host": "keybase.io",
+            "kid": "012003dcaaf7580a5e3c136b2bf7674e9ce6f9c2fbb5a99dad7a30a0670d36cb22ba0a",
+            "uid": "d9e394eba1f0aeacc8bc262c5be63b19",
+            "username": "borisyankov"
+        },
+        "service": {
+            "hostname": "borisyankov.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.21"
+    },
+    "ctime": 1492736828,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1492736756,
+        "hash": "171f598f7b5201c284c65f931e2a862ea1a30ff5597a3d90c24410ddd76ab816ba5ada86253e9c843ae34a10e3fe9a0255e6cca963ebf39c712d0c1d30a46fe9",
+        "seqno": 1030856
+    },
+    "prev": "847a79aa5cdb99bbc395b6a0a758d20d001b71a333b7bc66976cdcd3bc8c7cff",
+    "seqno": 8,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgA9yq91gKXjwTayv3Z06c5vnC+7Wpna16MKBnDTbLIroKp3BheWxvYWTFAvp7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwMDNkY2FhZjc1ODBhNWUzYzEzNmIyYmY3Njc0ZTljZTZmOWMyZmJiNWE5OWRhZDdhMzBhMDY3MGQzNmNiMjJiYTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwMDNkY2FhZjc1ODBhNWUzYzEzNmIyYmY3Njc0ZTljZTZmOWMyZmJiNWE5OWRhZDdhMzBhMDY3MGQzNmNiMjJiYTBhIiwidWlkIjoiZDllMzk0ZWJhMWYwYWVhY2M4YmMyNjJjNWJlNjNiMTkiLCJ1c2VybmFtZSI6ImJvcmlzeWFua292In0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJib3Jpc3lhbmtvdi5jb20iLCJwcm90b2NvbCI6Imh0dHA6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjIxIn0sImN0aW1lIjoxNDkyNzM2ODI4LCJleHBpcmVfaW4iOjUwNDU3NjAwMCwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE0OTI3MzY3NTYsImhhc2giOiIxNzFmNTk4ZjdiNTIwMWMyODRjNjVmOTMxZTJhODYyZWExYTMwZmY1NTk3YTNkOTBjMjQ0MTBkZGQ3NmFiODE2YmE1YWRhODYyNTNlOWM4NDNhZTM0YTEwZTNmZTlhMDI1NWU2Y2NhOTYzZWJmMzljNzEyZDBjMWQzMGE0NmZlOSIsInNlcW5vIjoxMDMwODU2fSwicHJldiI6Ijg0N2E3OWFhNWNkYjk5YmJjMzk1YjZhMGE3NThkMjBkMDAxYjcxYTMzM2I3YmM2Njk3NmNkY2QzYmM4YzdjZmYiLCJzZXFubyI6OCwidGFnIjoic2lnbmF0dXJlIn2jc2lnxEDPvYf5H4s+uXUzvEiFAx2HyA7zk4GjdWBcm3t8P0FcLLRXmiUPGKMbtw7D6PUFz1kBEWQK0c5/2C8u3NdZ9jcKqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQgxomYXq5OukX2CSWIay1cMw/pq/i0Vad+LZnxuNhpbR6jdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/borisyankov
+
+==================================================================
